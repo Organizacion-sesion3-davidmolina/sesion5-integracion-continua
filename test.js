@@ -1,5 +1,5 @@
 // test/test.js
-const esPar = require('../main');
+const esPar = require('./main');
 
 test('2 debería ser par', () => {
   expect(esPar(2)).toBe(true);
