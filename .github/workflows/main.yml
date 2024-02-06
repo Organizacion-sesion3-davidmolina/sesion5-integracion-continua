@@ -8,7 +8,7 @@ on:
       - main
 jobs:
   build:
-    runs-on: ubuntu-latest   # Cambia aquí según tu preferencia
+    runs-on: windows-latest  # Cambia aquí según tu preferencia
 
     steps:
       - name: Checkout code
